@@ -1,32 +1,31 @@
 /**************************************
 GENERAL
 ****************************************/
+/*
+Specify in CSS
+Use the following CSS rules to specify these families:
+
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto', sans-serif;
+*/
 
 /* site body */
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #fff;
-  color: #999;
-}
-
-/* green header */
-header {
-  background: #32cd32;
-  border-color: #32cd50;
+  font-family: 'Roboto Mono', monospace;
+  color: lightslategray;
 }
 
 a {
   text-decoration: none;
+  color: #545855;
 }
 
 img {
   max-width: 100%;
+ 
 }
 
-/* links */
-a {
-  color: #6ab47b;
-}
 
 #logo {
   text-align: center;
@@ -34,7 +33,7 @@ a {
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+ 
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
@@ -43,7 +42,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Slabo 27px', serif;
   font-size: 0.75em;
   margin: -5px 0 0; /*margin: top left/rigth buttom*/
   font-weight: normal;
@@ -65,7 +63,7 @@ header {
 }
 
 h1, h2 {
-  color: #fff;
+  color: #402d2d;
 }
 
 #wrapper {
@@ -89,8 +87,8 @@ nav {
 
 nav ul {
   list-style: none;
-  margin: 0 10px;
-  padding:0;
+  margin: auto;
+  padding:20px;
 }
 
 nav li {
@@ -103,7 +101,7 @@ nav a {
 }
 /* selected link */
 nav a, nav a:visited {
-  color: #fff;
+  color: #545855;
 }
 /* selected nav link */
 nav a.selected, nav a:hover {
@@ -175,6 +173,7 @@ PAGE: CONTACT
   padding: 0;
   margin: 0;
   font-size: 0.9em;  
+  color: red;
 }
 
 .contact-info li.phone a {
