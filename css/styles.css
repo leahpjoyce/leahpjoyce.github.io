@@ -21,30 +21,30 @@ a {
   color: #545855;
 }
 
-img {
-  max-width: 100%;
- 
+a:link {
+	color: black;
 }
-
+img {
+  max-width: 100%; 
+}
+.badges {
+	text-align: center;
+	margin: auto;
+}
 
 #logo {
   text-align: center;
   margin: 0;
 }
-
 h1 {
- 
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
-  
-}
-
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0; /*margin: top left/rigth buttom*/
-  font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	text-shadow: 3px 3px 3px #fff;
+/*	margin: 15px 0;*/
+	font-size: 1.75em;
+	font-weight: bolder;
+/*	line-height: 0.8em;*/
+	margin: 1% auto;
 }
 
 h3 {
@@ -65,6 +65,12 @@ header {
 h1, h2 {
   color: #402d2d;
 }
+#mainTitle, h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
 
 #wrapper {
   max-width: 940px;
@@ -76,13 +82,20 @@ h1, h2 {
 Navigation
 ********************/
 nav {
-  text-align: center;
+  text-align: right;
+/*
   padding: 10px 0;
   margin: 20px 0 0;
+*/
+/*
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+*/
 }
 /* nav background on mobile*/
 nav {
-  background: #599a68;
+  background: #29506D;
 }
 
 nav ul {
@@ -105,7 +118,7 @@ nav a, nav a:visited {
 }
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #AA3E39;
 }
 
 /**************************************
@@ -167,30 +180,21 @@ footer {
 /*******************
 PAGE: CONTACT
 ********************/
-
 .contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;  
-  color: red;
-}
 
-.contact-info li.phone a {
+}
+.telephone a {
   background-image: url(img/phone.png);
 }
-.contact-info li.mail a {
+.mail a {
   background-image: url(img/mail.png);
 }
-.contact-info li.twitter a {
+.twitter a {
   background-image: url(img/twitter.png);
 }
 
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
 }

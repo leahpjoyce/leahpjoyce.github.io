@@ -20,7 +20,7 @@ TWO COLUMN LAYOUT
 ****************************************/
   
 /**************************************
-PAGE: POFTFOLIO
+PAGE: PORTFOLIO
 ****************************************/
 
 #gallery li {
@@ -75,9 +75,4 @@ h2 {
    margin-bottom: 20px;
   }
 
-header {
-  border-bottom: 5px dotted #4a453d;
-  margin-bottom: 60px;
-  }
-  
 }
